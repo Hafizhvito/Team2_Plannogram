@@ -1,0 +1,173 @@
+.container {
+    display: flex;
+    -webkit-display: box;
+    -moz-display: box;
+    -ms-display: flexbox;
+    -webkit-display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.col {
+    flex: 1;
+}
+
+.tc-green {
+    color: #10B989;
+}
+
+.bg-blue {
+    background-color: #E8F1FF;
+}
+
+.uline-green {
+    border: 1px solid #10B989; margin: 5px 0;
+}
+
+.uline-grey {
+    border: 1px solid #D1D1D1; margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bt-green {
+    background-color: #047857;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.bt-submit-green {
+    background-color: #047857;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.3s all;
+    position: absolute;
+    right: 90px;
+}
+  
+.bt-green:hover {
+    background-color: #047857c7; /* Warna saat tombol dihover */
+}
+  
+.bt-blue {
+    background-color: white;
+    color: #5676FF;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+  
+.bt-blue:hover {
+    background-color: #5676FF; /* Warna saat tombol dihover */
+    color: white;
+}
+  
+.search-field {
+    display: block;
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+  
+.flex{
+    flex: none;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th {
+    border-bottom: 2px solid #ddd; /* Add a solid black line under table headers */
+    text-align: center;
+    padding-bottom: 20px;
+    color: #047857;
+}
+  
+td {
+    /* border: 1px solid #ddd;
+    padding: 8px; */
+  
+    border-bottom: 1px solid #ddd; /* Add a solid black line under table headers */
+    text-align: cnter;
+    padding: 20px 0px;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+.form-text {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.detail-title-bold {
+    font-weight: bold;
+}
+
+.label-green {
+    background-color: #A7F3DD; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #014935; 
+    font-weight: 500;
+}
+
+.label-blue {
+    background-color: #a7d3f3; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #014935; 
+    font-weight: 500;
+}
+
+.label-yellow {
+    background-color: #f3e5a7; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    color: #014935; 
+    font-weight: 500;
+}

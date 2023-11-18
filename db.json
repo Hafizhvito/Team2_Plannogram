@@ -1,0 +1,168 @@
+{
+  "test": {
+    "id": 0,
+    "name": "vio"
+  },
+  "items": [
+    {
+      "id": 0,
+      "name": "Bango Kecap Manis Refill Pouch 520ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//93/MTA-21760733/bango_bango_kecap_manis_550ml_pch_full01_l5fc8b6r.jpg",
+      "price": 19900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 1,
+      "name": "Kara Santan Kelapa Murni 200ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-2257685/kara_sun-kara-santan-kelapa--200-ml-_full02.jpg",
+      "price": 8900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "name": "Barco Minyak Goreng 2000ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//81/MTA-3530140/barco_medan---barco-minyak-goreng--botol--2000-ml-_full02.jpg",
+      "price": 58900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "name": "Pop Mie Mi Instan Cup 75GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-26291168/indofood_pop_mie_mi_instan_pake_nasi_soto_ayam_-75_gr-_full02_ptbjy29z.jpg",
+      "price": 8490,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "name": "Madurasa Madu Murni Botol 650ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//102/MTA-32768570/madurasa_madurasa-botol-murni-910-gr_full04.jpg",
+      "price": 98900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "name": "Greenfields Susu UHT 250ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//96/MTA-3981228/greenfields_greenfields_250_ml_full_cream_susu_cair____________full01.jpg",
+      "price": 5900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "name": "UHA Candy Maccha & Rich Milk 100GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-55240561/uha_uha_milk_candy_rasa_matcha_all_variant_pack_kantong_100g_-_permen_susu_aneka_rasa_103gr_full01_nc0wtwok.jpg",
+      "price": 14500,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "name": "Regal Marie Special Kaleng 1000GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//649/regal_regal-marie-biscuits--1000-gr--_full02.jpg",
+      "price": 79900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "name": "Oishi Pillows Coklat & Ubi 1000GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium//99/MTA-12774582/oishi_oishi-pillows-coklat-110g_full01.jpg",
+      "price": 19500,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "name": "Adem Sari Lemon Tea Botol 3500ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium//104/MTA-9186566/adem_sari_adem_sari_chingku_minuman_botol_-350_ml-_full01_l3ybr17v.jpg",
+      "price": 7900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 10,
+      "name": "Formula Sikat Gigi (Isi 2)",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-2990281/formula_formula-sparkling-white-charcoal-sikat-gigi--twin-pack--isi-2-pcs-_full02.jpg",
+      "price": 27490,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 11,
+      "name": "Dua Belibis Sambal Botol 340ML",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//87/MTA-3415280/dua-belibis_sambal-dua-belibis-340ml_full02.jpg",
+      "price": 16900,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 12,
+      "name": "Philips Lampu LED Box 8",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//89/MTA-10239622/philips_philips_led_bulb_8_w_6500k_bohlam_lampu_-_cool_daylight_-1ct-_12_indo-_2_pcs-_full02_iw5pob6g.jpg",
+      "price": 54600,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 13,
+      "name": "Klin Pak Kantong Sampah 30s",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//115/MTA-69059697/no_brand_klinpak_kantong_sampah_kecil_30s_full02_ihnyxuxo.jpg",
+      "price": 34800,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 14,
+      "name": "Max Kleen Liquid Detergent",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//97/MTA-38557400/maxkleen_max-kleen-liquid-detergent-anti-odor-600-100-ml_full01.jpg",
+      "price": 14400,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 15,
+      "name": "Dettol Pembersih Lantai 4 in 1",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//97/MTA-9624328/dettol_dettol_pembersih_lantai_lavender_4in1_multi_action_700_ml_full01_gr7o3l25.jpg",
+      "price": 16150,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 16,
+      "name": "Tessa Facial Tissue",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/tessa_tessa-facial-terra-tp-02-250-s-x-2-pcs_full03.jpg",
+      "price": 21950,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 17,
+      "name": "Salonpas Cream Tub 30GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium//90/MTA-21119814/salonpas_salonpas_cream_-30_g-_full03_ft579rzs.jpg",
+      "price": 15990,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 18,
+      "name": "Bejo Obat Masuk Angin",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//107/MTA-7378793/bintang_toedjoe_bintang_toedjoe_bejo_jahe_merah_obat_kesehatan_-12_sachet-_full06_plrlxi8b.jpg",
+      "price": 41980,
+      "is_selected": false,
+      "qty": 1
+    },
+    {
+      "id": 19,
+      "name": "Daia Detergent Bubuk Bag 800GR",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-18501142/daia_daia_softener_deterjen_800_gr_full02_d4ydq3d0.jpeg",
+      "price": 17500,
+      "is_selected": false,
+      "qty": 1
+    }
+  ]
+}
