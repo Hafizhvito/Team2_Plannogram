@@ -9,8 +9,8 @@
           </router-link>
         </div>
         <div>
-          <h1 class="m0">Detail User</h1>
-          <p class="mt5 mb20 tc-green">Your user details</p>
+          <h1 class="m0">Detail Plannogram</h1>
+          <p class="mt5 mb20 tc-green">Your plannogram details</p>
         </div>
       </div>
       <hr class="uline-grey" />

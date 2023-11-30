@@ -31,7 +31,7 @@
           <thead>
             <tr>
               <th>PLANNOGRAM NAME</th>
-              <th>BACKROUND IMAGE</th>
+              <th>BACKGROUND IMAGE</th>
               <th>BROADCAST SCHEDULE</th>
               <th>VALID FROM</th>
               <th>VALID UNTIL</th>
@@ -42,11 +42,7 @@
             <tr v-for="item of list_user" :key="item.id">
               <td class="center">{{ item.plannogramname }}</td>
               <td class="center">
-                <img
-                  v-if="item.displayimages"
-                  :src="item.displayimages"
-                  alt="Plannogram Image"
-                />
+                <img :src="item.displayimages" />
               </td>
               <td class="center">{{ item.broadcastschedule }}</td>
               <td class="center">
@@ -67,7 +63,7 @@
                 </div>
               </td>
               <td class="center">
-                <div class="mt5"> 
+                <div class="mt5">
                   <router-link :to="'/edit-plannogram/' + item.id">
                     <img src="../../assets/icons/edit.svg" />
                   </router-link>
@@ -103,7 +99,7 @@ export default {
         {
           id: "",
           plannogramname: "Flash Sale Minggu Ini",
-          displayimages: "../../assets/icons/add.png", // Placeholder image URL
+          displayimages: "../../assets/icons/flashsale.png", // Placeholder image URL
           broadcastschedule: "Senin",
           validFrom: "10-10-2020",
           validUntil: "10-11-2020",
@@ -112,7 +108,7 @@ export default {
         {
           id: "",
           plannogramname: "Produk Terbaru",
-          displayimages: "https://example.com/image2.jpg", // Placeholder image URL
+          displayimages: "../../assets/icons/flashsalephone.png", // Include the correct file extension
           broadcastschedule: "Senin",
           validFrom: "11-11-2020",
           validUntil: "11-12-2020",

@@ -10,7 +10,7 @@
         </div>
         <div>
           <h1 class="m0">Update Plannogram</h1>
-          <p class="mt5 mb20 tc-green">Increase the visibility of promotial products in our store highlights</p>
+          <p class="mt5 mb20 tc-green">Increase the visibility of promotional products in our store highlights</p>
         </div>
       </div>
       <hr class="uline-grey" />
@@ -19,8 +19,30 @@
           <label class="form-label">Background Image</label>
         </div>
         <div class="w80">
-          <input type="file" @change="handleImageChange" accept="image/*" />
-          <img v-if="imageUrl" :src="imageUrl" alt="Voucher Image" />
+          <!-- Add an input type=file hidden behind the visible image -->
+          <label for="imageUpload" class="image-upload">
+            <input
+              type="file"
+              id="imageUpload"
+              accept="image/*"
+              @change="handleImageChange"
+              style="display: none;"
+            />
+            <img
+              v-if="imageUrl"
+              :src="imageUrl"
+              alt="Voucher Image"
+              @click="openFileExplorer"
+              class="clickable-image"
+            />
+            <img
+              v-else
+              src="../../assets/icons/add.png"
+              alt="Default Image"
+              @click="openFileExplorer"
+              class="clickable-image"
+            />
+          </label>
         </div>
       </div>
       <div class="mt50 row">
@@ -77,7 +99,7 @@
       </div>
       <div class="flex mt30">
         <router-link to="/list-plannogram">
-          <button class="bt-submit-green">Add Plannogram</button>
+          <button class="bt-submit-green">Update Plannogram</button>
         </router-link>
       </div>
     </div>
@@ -108,6 +130,27 @@ export default {
         reader.readAsDataURL(file);
       }
     },
+    openFileExplorer() {
+      // Trigger the file input click when the image is clicked
+      document.getElementById("imageUpload").click();
+    },
   },
 };
 </script>
+
+<style scoped>
+/* Additional styling for the file input */
+.clickable-image {
+  cursor: pointer;
+  max-width: 100%; /* Enforce image size limit */
+  outline: 1px dashed #ccc; /* Add outline */
+  padding: 5px; /* Provide spacing */
+}
+
+/* Additional styling for the file input */
+.image-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+</style>

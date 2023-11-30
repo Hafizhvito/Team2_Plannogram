@@ -88,35 +88,35 @@ export default {
         return {
             list_user: [
                 {
-                    id: "1",
+                    id: "",
                     name: "Vioni Wita Elya",
                     username: "viowelya",
                     email: "vioniwitaelya@gmail.com",
                     role: 1
                 },
                 {
-                    id: "2",
+                    id: "",
                     name: "Haifah Nur Zakiah",
                     username: "nifaza",
                     email: "nifaza@gmail.com",
                     role: 2
                 },
                 {
-                    id: "3",
+                    id: "",
                     name: "Nabila Hasyimie",
                     username: "bilamie",
                     email: "bilamie07@gmail.com",
                     role: 3
                 },
                 {
-                    id: "4",
+                    id: "",
                     name: "Naufal Al-Ghifary",
                     username: "naufary",
                     email: "naufary@gmail.com",
                     role: 3
                 },
                 {
-                    id: "5",
+                    id: "",
                     name: "Hafidz Zaki Makarim",
                     username: "fidzki",
                     email: "fidzki@gmail.com",
